@@ -1,10 +1,12 @@
 # Index Aggregation
+
 Objective:
 	Create a web service to
 	 I.  Publish tickers, and 
 	 II. Receive stats of tickers for the last 60 seconds.
 
 Components:
+
 	I. Publish Tickers
 
 		a. TickController - Receives ticks, pushes to a blocking queue and returns desired response immediately.
@@ -29,9 +31,10 @@ Components:
 		Necessary POJOs created and used.
     
 
-How to run:
+How to build and run:
 	a. Compile and package executin the following command from the project folder in the command prompte:
 		mvn package
+		
 	b. Corresponding executable jar(index-aggregation-0.0.1-SNAPSHOT.jar) would be created in target folder of project. Execute following command:
 		target/java -jar index-aggregation-0.0.1-SNAPSHOT.jar
 	
