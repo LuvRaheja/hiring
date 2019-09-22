@@ -32,6 +32,7 @@ Components:
     
 
 How to build and run:
+	
 	a. Compile and package executin the following command from the project folder in the command prompte:
 		mvn package
 		
